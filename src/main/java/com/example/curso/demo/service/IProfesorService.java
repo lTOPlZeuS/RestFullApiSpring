@@ -5,7 +5,10 @@ import java.util.Optional;
 
 import com.example.curso.demo.entity.Profesor;
 
-public interface IProfesorService {
+import org.springframework.stereotype.Service;
+
+@Service
+public interface IProfesorService{
 
   public void save(Profesor profesor);
 
